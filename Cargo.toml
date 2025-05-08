@@ -1,0 +1,11 @@
+[package]
+name = "phosphor-icons-playground"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+#leptos = "0.8.2"
+#phosphor-leptos = { git = "https://github.com/flowi/phosphor-leptos", branch = "update-to-leptos-0-8" }
+
+leptos = "0.7.7"
+phosphor-leptos = "0.7.0"
