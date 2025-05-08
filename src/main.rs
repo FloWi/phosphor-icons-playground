@@ -9,7 +9,6 @@ fn main() {
 
     leptos::mount::mount_to_body(|| view! {
         <div>
-            <p>"Hello, world!"</p>
             <MyComponent />
         </div>
     })
@@ -32,7 +31,7 @@ fn MyComponent() -> impl IntoView {
                     <div>
                         <p>{label}</p>
                         <p>{icon.get(IconWeight::Regular)}</p>
-                        <Icon icon=icon color="#AE2983" weight=IconWeight::Fill size="32px" />
+                        <Icon icon=icon color="red" weight=IconWeight::Regular size="32px" />
                     </div>
                 }
             })
