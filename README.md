@@ -1,6 +1,6 @@
 # Playground for phosphor icons
 
-rendering is somehow broken. Data is there, but svg nodes are empty.
+renders fine with leptos 0.8.2
 
 ![screenshot.png](screenshot.png)
 
@@ -10,6 +10,3 @@ rendering is somehow broken. Data is there, but svg nodes are empty.
 trunk serve --open
 ```
 
-## Cargo.toml
-
-The config file also has versions for leptos 0.8 (commented out) where the phosphor-leptos dependency points against my fork of the updated version.
